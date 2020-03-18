@@ -47,7 +47,7 @@ All the data used for testing saved in _testData.json_.
 
 If same test occurs more than one time it has its own _Cypress.Command_ saved in _commands.js_.
 
-### On the example of the _"Validate the header"_ test.
+On the example of the _"Validate the header"_ test.
 
 _commands.js_
 

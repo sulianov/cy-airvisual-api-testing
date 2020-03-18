@@ -35,10 +35,25 @@ All the data used for testing saved in *testData.json*.
     "country": "Czech Republic",
     "state": "South Moravian"
   },
-  "apiKey": "9e797135-33d5-4ef4-b2be-867f7a258b99",
-  "countryData": { "country": "USA", "state": "Arizona", "city": "Sacaton" },
-  "citiesUSA": [
-    {
-      "city": "Ajo"
+  "apiKey": "9e797135-33d5-4ef4-b2be-867f7a258b99"
  ...
  ```
+If same test occurs more than one time it has its own *Cypress.Command* saved in *commands.js*.
+## On the example of the *"Validate the header"* test.
+*commands.js*
+```
+Cypress.Commands.add("validateHeader", fixt => {
+  cy.fixture(fixt).then(response => {
+    let headers = response.headers;
+    expect(headers["cache-control"]).to.be.eq("no-store");
+    expect(headers["content-encoding"]).to.be.eq("gzip");
+    expect(headers["content-type"]).to.be.eq("application/json");
+  });
+});
+```
+* *.spec.js*
+```
+it("Validate the header", () => {
+    cy.validateHeader("getCountriesResponse.json");
+  });
+```

@@ -75,8 +75,8 @@ In order to check particular country in the object of countries I use _forEach_.
 _commands.js_
 
 ```
-Cypress.Commands.add("checkContent", (fixt, country) => {
-  cy.fixture(fixt).then(response => {
+Cypress.Commands.add("checkContent", (respJSON, country) => {
+  cy.fixture(respJSON).then(response => {
     let arr = [];
     response.body.data.forEach(item => {
       arr.push(Object.values(item)[0]);

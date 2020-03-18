@@ -1,0 +1,10 @@
+{
+  "baseUrl": "https://api.airvisual.com/v2",
+  "apiKey": "9e797135-33d5-4ef4-b2be-867f7a258b99",
+  "country": "USA",
+  "state": "Arizona",
+  "city": "Sacaton",
+  "projectId": "3jot2n",
+  "LATITUDE": 40,
+  "LONGITUDE": 74
+}

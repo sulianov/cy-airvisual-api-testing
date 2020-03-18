@@ -1,0 +1,208 @@
+{
+  "body": {
+    "status": "success",
+    "data": [
+      {
+        "state": "Alabama"
+      },
+      {
+        "state": "Alaska"
+      },
+      {
+        "state": "Arizona"
+      },
+      {
+        "state": "Arkansas"
+      },
+      {
+        "state": "California"
+      },
+      {
+        "state": "Colorado"
+      },
+      {
+        "state": "Connecticut"
+      },
+      {
+        "state": "Delaware"
+      },
+      {
+        "state": "Florida"
+      },
+      {
+        "state": "Georgia"
+      },
+      {
+        "state": "Hawaii"
+      },
+      {
+        "state": "Idaho"
+      },
+      {
+        "state": "Illinois"
+      },
+      {
+        "state": "Indiana"
+      },
+      {
+        "state": "Iowa"
+      },
+      {
+        "state": "Kansas"
+      },
+      {
+        "state": "Kentucky"
+      },
+      {
+        "state": "Louisiana"
+      },
+      {
+        "state": "Maine"
+      },
+      {
+        "state": "Maryland"
+      },
+      {
+        "state": "Massachusetts"
+      },
+      {
+        "state": "Michigan"
+      },
+      {
+        "state": "Minnesota"
+      },
+      {
+        "state": "Mississippi"
+      },
+      {
+        "state": "Missouri"
+      },
+      {
+        "state": "Montana"
+      },
+      {
+        "state": "Nebraska"
+      },
+      {
+        "state": "Nevada"
+      },
+      {
+        "state": "New Hampshire"
+      },
+      {
+        "state": "New Jersey"
+      },
+      {
+        "state": "New Mexico"
+      },
+      {
+        "state": "New York"
+      },
+      {
+        "state": "North Carolina"
+      },
+      {
+        "state": "North Dakota"
+      },
+      {
+        "state": "Ohio"
+      },
+      {
+        "state": "Oklahoma"
+      },
+      {
+        "state": "Oregon"
+      },
+      {
+        "state": "Pennsylvania"
+      },
+      {
+        "state": "Rhode Island"
+      },
+      {
+        "state": "South Carolina"
+      },
+      {
+        "state": "South Dakota"
+      },
+      {
+        "state": "Tennessee"
+      },
+      {
+        "state": "Texas"
+      },
+      {
+        "state": "Utah"
+      },
+      {
+        "state": "Vermont"
+      },
+      {
+        "state": "Virginia"
+      },
+      {
+        "state": "Washington"
+      },
+      {
+        "state": "Washington, D.C."
+      },
+      {
+        "state": "West Virginia"
+      },
+      {
+        "state": "Wisconsin"
+      },
+      {
+        "state": "Wyoming"
+      }
+    ]
+  },
+  "headers": {
+    "date": "Wed, 18 Mar 2020 16:38:02 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "cache-control": "no-store",
+    "pragma": "no-cache",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/4.2.0 Chrome/80.0.3987.141 Electron/8.1.1 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 1634,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/4.2.0 Chrome/80.0.3987.141 Electron/8.1.1 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://api.airvisual.com/v2/states?country=USA&key=9e797135-33d5-4ef4-b2be-867f7a258b99",
+      "Response Body": "{\"status\":\"success\",\"data\":[{\"state\":\"Alabama\"},{\"state\":\"Alaska\"},{\"state\":\"Arizona\"},{\"state\":\"Arkansas\"},{\"state\":\"California\"},{\"state\":\"Colorado\"},{\"state\":\"Connecticut\"},{\"state\":\"Delaware\"},{\"state\":\"Florida\"},{\"state\":\"Georgia\"},{\"state\":\"Hawaii\"},{\"state\":\"Idaho\"},{\"state\":\"Illinois\"},{\"state\":\"Indiana\"},{\"state\":\"Iowa\"},{\"state\":\"Kansas\"},{\"state\":\"Kentucky\"},{\"state\":\"Louisiana\"},{\"state\":\"Maine\"},{\"state\":\"Maryland\"},{\"state\":\"Massachusetts\"},{\"state\":\"Michigan\"},{\"state\":\"Minnesota\"},{\"state\":\"Mississippi\"},{\"state\":\"Missouri\"},{\"state\":\"Montana\"},{\"state\":\"Nebraska\"},{\"state\":\"Nevada\"},{\"state\":\"New Hampshire\"},{\"state\":\"New Jersey\"},{\"state\":\"New Mexico\"},{\"state\":\"New York\"},{\"state\":\"North Carolina\"},{\"state\":\"North Dakota\"},{\"state\":\"Ohio\"},{\"state\":\"Oklahoma\"},{\"state\":\"Oregon\"},{\"state\":\"Pennsylvania\"},{\"state\":\"Rhode Island\"},{\"state\":\"South Carolina\"},{\"state\":\"South Dakota\"},{\"state\":\"Tennessee\"},{\"state\":\"Texas\"},{\"state\":\"Utah\"},{\"state\":\"Vermont\"},{\"state\":\"Virginia\"},{\"state\":\"Washington\"},{\"state\":\"Washington, D.C.\"},{\"state\":\"West Virginia\"},{\"state\":\"Wisconsin\"},{\"state\":\"Wyoming\"}]}",
+      "Response Headers": {
+        "date": "Wed, 18 Mar 2020 16:38:02 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "cache-control": "no-store",
+        "pragma": "no-cache",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept",
+        "vary": "Accept-Encoding",
+        "content-encoding": "gzip"
+      },
+      "Response Status": 200
+    }
+  ]
+}

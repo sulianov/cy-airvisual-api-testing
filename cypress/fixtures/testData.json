@@ -1,0 +1,483 @@
+{
+  "kashgar": {
+    "LATITUDE": 40,
+    "LONGITUDE": 74,
+    "city": "Kashgar",
+    "state": "Xinjiang",
+    "country": "China"
+  },
+  "brno": {
+    "city": "Brno",
+    "country": "Czech Republic",
+    "state": "South Moravian"
+  },
+  "apiKey": "9e797135-33d5-4ef4-b2be-867f7a258b99",
+  "countryData": { "country": "USA", "state": "Arizona", "city": "Sacaton" },
+  "citiesUSA": [
+    {
+      "city": "Ajo"
+    },
+    {
+      "city": "Apache Junction"
+    },
+    {
+      "city": "Buckeye"
+    },
+    {
+      "city": "Bullhead City"
+    },
+    {
+      "city": "Casa Grande"
+    },
+    {
+      "city": "Cave Creek"
+    },
+    {
+      "city": "Chandler"
+    },
+    {
+      "city": "Douglas"
+    },
+    {
+      "city": "Flagstaff"
+    },
+    {
+      "city": "Fort McDowell"
+    },
+    {
+      "city": "Gilbert"
+    },
+    {
+      "city": "Glendale"
+    },
+    {
+      "city": "Guadalupe"
+    },
+    {
+      "city": "Hayden"
+    },
+    {
+      "city": "Hidden Valley"
+    },
+    {
+      "city": "Marana"
+    },
+    {
+      "city": "Maricopa"
+    },
+    {
+      "city": "Mesa"
+    },
+    {
+      "city": "Miami"
+    },
+    {
+      "city": "Nogales"
+    },
+    {
+      "city": "Payson"
+    },
+    {
+      "city": "Phoenix"
+    },
+    {
+      "city": "Prescott"
+    },
+    {
+      "city": "Queen Valley"
+    },
+    {
+      "city": "Sacaton"
+    },
+    {
+      "city": "San Tan Valley"
+    },
+    {
+      "city": "Scottsdale"
+    },
+    {
+      "city": "South Tucson"
+    },
+    {
+      "city": "St Johns"
+    },
+    {
+      "city": "Stanfield"
+    },
+    {
+      "city": "Sun City"
+    },
+    {
+      "city": "Sun City West"
+    },
+    {
+      "city": "Surprise"
+    },
+    {
+      "city": "Tempe"
+    },
+    {
+      "city": "Tortolita"
+    },
+    {
+      "city": "Tucson"
+    },
+    {
+      "city": "Wenden"
+    },
+    {
+      "city": "Yuma"
+    }
+  ],
+  "countries": [
+    {
+      "country": "Afghanistan"
+    },
+    {
+      "country": "Algeria"
+    },
+    {
+      "country": "Andorra"
+    },
+    {
+      "country": "Angola"
+    },
+    {
+      "country": "Argentina"
+    },
+    {
+      "country": "Armenia"
+    },
+    {
+      "country": "Australia"
+    },
+    {
+      "country": "Austria"
+    },
+    {
+      "country": "Bahamas"
+    },
+    {
+      "country": "Bahrain"
+    },
+    {
+      "country": "Bangladesh"
+    },
+    {
+      "country": "Belgium"
+    },
+    {
+      "country": "Bolivia"
+    },
+    {
+      "country": "Bosnia Herzegovina"
+    },
+    {
+      "country": "Brazil"
+    },
+    {
+      "country": "Brunei"
+    },
+    {
+      "country": "Bulgaria"
+    },
+    {
+      "country": "Canada"
+    },
+    {
+      "country": "Chile"
+    },
+    {
+      "country": "China"
+    },
+    {
+      "country": "Colombia"
+    },
+    {
+      "country": "Croatia"
+    },
+    {
+      "country": "Cyprus"
+    },
+    {
+      "country": "Czech Republic"
+    },
+    {
+      "country": "Democratic Republic of the Congo"
+    },
+    {
+      "country": "Denmark"
+    },
+    {
+      "country": "Ecuador"
+    },
+    {
+      "country": "Ethiopia"
+    },
+    {
+      "country": "Finland"
+    },
+    {
+      "country": "France"
+    },
+    {
+      "country": "Germany"
+    },
+    {
+      "country": "Ghana"
+    },
+    {
+      "country": "Guatemala"
+    },
+    {
+      "country": "Hong Kong SAR"
+    },
+    {
+      "country": "Hungary"
+    },
+    {
+      "country": "India"
+    },
+    {
+      "country": "Indonesia"
+    },
+    {
+      "country": "Iran"
+    },
+    {
+      "country": "Iraq"
+    },
+    {
+      "country": "Ireland"
+    },
+    {
+      "country": "Israel"
+    },
+    {
+      "country": "Italy"
+    },
+    {
+      "country": "Ivory Coast"
+    },
+    {
+      "country": "Japan"
+    },
+    {
+      "country": "Jordan"
+    },
+    {
+      "country": "Kazakhstan"
+    },
+    {
+      "country": "Kosovo"
+    },
+    {
+      "country": "Kuwait"
+    },
+    {
+      "country": "Kyrgyzstan"
+    },
+    {
+      "country": "Latvia"
+    },
+    {
+      "country": "Lithuania"
+    },
+    {
+      "country": "Luxembourg"
+    },
+    {
+      "country": "Macao SAR"
+    },
+    {
+      "country": "Malaysia"
+    },
+    {
+      "country": "Malta"
+    },
+    {
+      "country": "Mexico"
+    },
+    {
+      "country": "Mongolia"
+    },
+    {
+      "country": "Myanmar"
+    },
+    {
+      "country": "Nepal"
+    },
+    {
+      "country": "Netherlands"
+    },
+    {
+      "country": "New Caledonia"
+    },
+    {
+      "country": "New Zealand"
+    },
+    {
+      "country": "Nigeria"
+    },
+    {
+      "country": "North Macedonia"
+    },
+    {
+      "country": "Norway"
+    },
+    {
+      "country": "Oman"
+    },
+    {
+      "country": "Pakistan"
+    },
+    {
+      "country": "Peru"
+    },
+    {
+      "country": "Philippines"
+    },
+    {
+      "country": "Poland"
+    },
+    {
+      "country": "Portugal"
+    },
+    {
+      "country": "Puerto Rico"
+    },
+    {
+      "country": "Romania"
+    },
+    {
+      "country": "Russia"
+    },
+    {
+      "country": "San Marino"
+    },
+    {
+      "country": "Serbia"
+    },
+    {
+      "country": "Singapore"
+    },
+    {
+      "country": "Slovakia"
+    },
+    {
+      "country": "Slovenia"
+    },
+    {
+      "country": "South Africa"
+    },
+    {
+      "country": "South Korea"
+    },
+    {
+      "country": "Spain"
+    },
+    {
+      "country": "Sri Lanka"
+    },
+    {
+      "country": "Sweden"
+    },
+    {
+      "country": "Switzerland"
+    },
+    {
+      "country": "Syria"
+    },
+    {
+      "country": "Taiwan"
+    },
+    {
+      "country": "Thailand"
+    },
+    {
+      "country": "Turkey"
+    },
+    {
+      "country": "U.S. Virgin Islands"
+    },
+    {
+      "country": "USA"
+    },
+    {
+      "country": "Uganda"
+    },
+    {
+      "country": "Ukraine"
+    },
+    {
+      "country": "United Arab Emirates"
+    },
+    {
+      "country": "United Kingdom"
+    },
+    {
+      "country": "Uzbekistan"
+    },
+    {
+      "country": "Vietnam"
+    },
+    {
+      "country": "Yemen"
+    }
+  ],
+  "statesUSA": [
+    { "state": "Alabama" },
+    { "state": "Alaska" },
+    { "state": "Arizona" },
+    { "state": "Arkansas" },
+    { "state": "California" },
+    { "state": "Colorado" },
+    { "state": "Connecticut" },
+    { "state": "Delaware" },
+    { "state": "Florida" },
+    { "state": "Georgia" },
+    { "state": "Hawaii" },
+    { "state": "Idaho" },
+    { "state": "Illinois" },
+    { "state": "Indiana" },
+    { "state": "Iowa" },
+    { "state": "Kansas" },
+    { "state": "Kentucky" },
+    { "state": "Louisiana" },
+    { "state": "Maine" },
+    { "state": "Maryland" },
+    { "state": "Massachusetts" },
+    { "state": "Michigan" },
+    { "state": "Minnesota" },
+    { "state": "Mississippi" },
+    { "state": "Missouri" },
+    { "state": "Montana" },
+    { "state": "Nebraska" },
+    { "state": "Nevada" },
+    { "state": "New Hampshire" },
+    { "state": "New Jersey" },
+    { "state": "New Mexico" },
+    { "state": "New York" },
+    { "state": "North Carolina" },
+    { "state": "North Dakota" },
+    { "state": "Ohio" },
+    { "state": "Oklahoma" },
+    { "state": "Oregon" },
+    { "state": "Pennsylvania" },
+    { "state": "Rhode Island" },
+    { "state": "South Carolina" },
+    { "state": "South Dakota" },
+    { "state": "Tennessee" },
+    { "state": "Texas" },
+    { "state": "Utah" },
+    { "state": "Vermont" },
+    { "state": "Virginia" },
+    { "state": "Washington" },
+    { "state": "Washington, D.C." },
+    { "state": "West Virginia" },
+    { "state": "Wisconsin" },
+    { "state": "Wyoming" }
+  ],
+  "weatherKeys": ["ts", "tp", "pr", "hu", "ws", "wd", "ic"],
+  "pollutionKeys": ["ts", "aqius", "mainus", "aqicn", "maincn"]
+}

@@ -1,0 +1,175 @@
+{
+  "body": {
+    "status": "success",
+    "data": [
+      {
+        "city": "Ajo"
+      },
+      {
+        "city": "Apache Junction"
+      },
+      {
+        "city": "Buckeye"
+      },
+      {
+        "city": "Bullhead City"
+      },
+      {
+        "city": "Casa Grande"
+      },
+      {
+        "city": "Cave Creek"
+      },
+      {
+        "city": "Chandler"
+      },
+      {
+        "city": "Douglas"
+      },
+      {
+        "city": "Eloy"
+      },
+      {
+        "city": "Flagstaff"
+      },
+      {
+        "city": "Fort McDowell"
+      },
+      {
+        "city": "Fountain Hills"
+      },
+      {
+        "city": "Gilbert"
+      },
+      {
+        "city": "Glendale"
+      },
+      {
+        "city": "Green Valley"
+      },
+      {
+        "city": "Guadalupe"
+      },
+      {
+        "city": "Hayden"
+      },
+      {
+        "city": "Hidden Valley"
+      },
+      {
+        "city": "Marana"
+      },
+      {
+        "city": "Maricopa"
+      },
+      {
+        "city": "Mesa"
+      },
+      {
+        "city": "Miami"
+      },
+      {
+        "city": "Nogales"
+      },
+      {
+        "city": "Payson"
+      },
+      {
+        "city": "Phoenix"
+      },
+      {
+        "city": "Prescott"
+      },
+      {
+        "city": "Queen Valley"
+      },
+      {
+        "city": "Sacaton"
+      },
+      {
+        "city": "San Tan Valley"
+      },
+      {
+        "city": "Scottsdale"
+      },
+      {
+        "city": "St Johns"
+      },
+      {
+        "city": "Stanfield"
+      },
+      {
+        "city": "Sun City"
+      },
+      {
+        "city": "Sun City West"
+      },
+      {
+        "city": "Surprise"
+      },
+      {
+        "city": "Tempe"
+      },
+      {
+        "city": "Tortolita"
+      },
+      {
+        "city": "Tucson"
+      },
+      {
+        "city": "Wenden"
+      },
+      {
+        "city": "Yuma"
+      }
+    ]
+  },
+  "headers": {
+    "date": "Wed, 18 Mar 2020 16:44:07 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "cache-control": "no-store",
+    "pragma": "no-cache",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 5880,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://api.airvisual.com/v2/cities?state=Arizona&country=USA&key=9e797135-33d5-4ef4-b2be-867f7a258b99",
+      "Response Body": "{\"status\":\"success\",\"data\":[{\"city\":\"Ajo\"},{\"city\":\"Apache Junction\"},{\"city\":\"Buckeye\"},{\"city\":\"Bullhead City\"},{\"city\":\"Casa Grande\"},{\"city\":\"Cave Creek\"},{\"city\":\"Chandler\"},{\"city\":\"Douglas\"},{\"city\":\"Eloy\"},{\"city\":\"Flagstaff\"},{\"city\":\"Fort McDowell\"},{\"city\":\"Fountain Hills\"},{\"city\":\"Gilbert\"},{\"city\":\"Glendale\"},{\"city\":\"Green Valley\"},{\"city\":\"Guadalupe\"},{\"city\":\"Hayden\"},{\"city\":\"Hidden Valley\"},{\"city\":\"Marana\"},{\"city\":\"Maricopa\"},{\"city\":\"Mesa\"},{\"city\":\"Miami\"},{\"city\":\"Nogales\"},{\"city\":\"Payson\"},{\"city\":\"Phoenix\"},{\"city\":\"Prescott\"},{\"city\":\"Queen Valley\"},{\"city\":\"Sacaton\"},{\"city\":\"San Tan Valley\"},{\"city\":\"Scottsdale\"},{\"city\":\"St Johns\"},{\"city\":\"Stanfield\"},{\"city\":\"Sun City\"},{\"city\":\"Sun City West\"},{\"city\":\"Surprise\"},{\"city\":\"Tempe\"},{\"city\":\"Tortolita\"},{\"city\":\"Tucson\"},{\"city\":\"Wenden\"},{\"city\":\"Yuma\"}]}",
+      "Response Headers": {
+        "date": "Wed, 18 Mar 2020 16:44:07 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "cache-control": "no-store",
+        "pragma": "no-cache",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept",
+        "vary": "Accept-Encoding",
+        "content-encoding": "gzip"
+      },
+      "Response Status": 200
+    }
+  ]
+}

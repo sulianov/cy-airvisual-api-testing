@@ -1,0 +1,83 @@
+{
+  "body": {
+    "status": "success",
+    "data": {
+      "city": "Gelendzhik",
+      "state": "Krasnodarskiy",
+      "country": "Russia",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          38.0752436,
+          44.5768695
+        ]
+      },
+      "current": {
+        "weather": {
+          "ts": "2020-03-18T16:00:00.000Z",
+          "tp": 6,
+          "pr": 1020,
+          "hu": 59,
+          "ws": 11.26,
+          "wd": 46,
+          "ic": "04n"
+        },
+        "pollution": {
+          "ts": "2020-03-18T16:00:00.000Z",
+          "aqius": 17,
+          "mainus": "p2",
+          "aqicn": 6,
+          "maincn": "p2"
+        }
+      }
+    }
+  },
+  "headers": {
+    "date": "Wed, 18 Mar 2020 16:35:19 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "cache-control": "no-store",
+    "pragma": "no-cache",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 1737,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://api.airvisual.com/v2/nearest_city?key=9e797135-33d5-4ef4-b2be-867f7a258b99",
+      "Response Body": "{\"status\":\"success\",\"data\":{\"city\":\"Gelendzhik\",\"state\":\"Krasnodarskiy\",\"country\":\"Russia\",\"location\":{\"type\":\"Point\",\"coordinates\":[38.0752436,44.5768695]},\"current\":{\"weather\":{\"ts\":\"2020-03-18T16:00:00.000Z\",\"tp\":6,\"pr\":1020,\"hu\":59,\"ws\":11.26,\"wd\":46,\"ic\":\"04n\"},\"pollution\":{\"ts\":\"2020-03-18T16:00:00.000Z\",\"aqius\":17,\"mainus\":\"p2\",\"aqicn\":6,\"maincn\":\"p2\"}}}}",
+      "Response Headers": {
+        "date": "Wed, 18 Mar 2020 16:35:19 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "cache-control": "no-store",
+        "pragma": "no-cache",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept",
+        "vary": "Accept-Encoding",
+        "content-encoding": "gzip"
+      },
+      "Response Status": 200
+    }
+  ]
+}

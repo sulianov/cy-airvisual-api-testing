@@ -2,7 +2,7 @@
 
 ## Demo project for testing AirVisual API using Cypress framework.
 
-In order to speed up tests run in each _.spec.js_ file I call the API only once - in a separate _it_ - and then use _cy.writeFile_ to save response in a _fixtures_ folder.
+In order to speed up test runs in each _.spec.js_ file I call API only once - in a separate _it_ - and then use _cy.writeFile_ to save response in a _fixtures_ folder.
 
 ```
   it("GET and Save reponse to test", () => {

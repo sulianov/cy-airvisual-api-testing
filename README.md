@@ -71,6 +71,7 @@ it("Validate the header", () => {
 ```
 
 In order to check particular country in the object of countries I use _forEach_.
+
 _commands.js_
 
 ```

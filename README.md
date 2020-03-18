@@ -1,7 +1,9 @@
 # Cypress - AirVisual API testing
+
 ## Demo project for testing AirVisual API using Cypress framework.
 
-In order to speed up tests run in each *.spec.js* file I call the API only once - in a separate *it* - and then use *cy.writeFile* to save response in a *fixtures* folder.
+In order to speed up tests run in each _.spec.js_ file I call the API only once - in a separate _it_ - and then use _cy.writeFile_ to save response in a _fixtures_ folder.
+
 ```
   it("GET and Save reponse to test", () => {
     cy.fixture("testData").then(td => {
@@ -13,15 +15,19 @@ In order to speed up tests run in each *.spec.js* file I call the API only once 
       });
     });
 ```
- I call it later for all the following tests using *cy.fixture* and *then*.
- ```
-   it("Validate response body not null", () => {
-    cy.fixture("getCountriesResponse.json").then(response => {
-      expect(response.body).to.not.be.null;
-    });
-  });
- ```
-All the data used for testing saved in *testData.json*.
+
+I call it later for all the following tests using _cy.fixture_ and _then_.
+
+```
+  it("Validate response body not null", () => {
+   cy.fixture("getCountriesResponse.json").then(response => {
+     expect(response.body).to.not.be.null;
+   });
+ });
+```
+
+All the data used for testing saved in _testData.json_.
+
 ```{
   "kashgar": {
     "LATITUDE": 40,
@@ -37,10 +43,14 @@ All the data used for testing saved in *testData.json*.
   },
   "apiKey": "9e797135-33d5-4ef4-b2be-867f7a258b99"
  ...
- ```
-If same test occurs more than one time it has its own *Cypress.Command* saved in *commands.js*.
-### On the example of the *"Validate the header"* test.
-*commands.js*
+```
+
+If same test occurs more than one time it has its own _Cypress.Command_ saved in _commands.js_.
+
+### On the example of the _"Validate the header"_ test.
+
+_commands.js_
+
 ```
 Cypress.Commands.add("validateHeader", fixt => {
   cy.fixture(fixt).then(response => {
@@ -51,9 +61,69 @@ Cypress.Commands.add("validateHeader", fixt => {
   });
 });
 ```
-*.spec.js*
+
+_.spec.js_
+
 ```
 it("Validate the header", () => {
     cy.validateHeader("getCountriesResponse.json");
   });
+```
+
+In order to check particular country in the object of countries I use _forEach_.
+_commands.js_
+
+```
+Cypress.Commands.add("checkContent", (fixt, country) => {
+  cy.fixture(fixt).then(response => {
+    let arr = [];
+    response.body.data.forEach(item => {
+      arr.push(Object.values(item)[0]);
+    });
+    expect(arr).to.include(country);
+  });
+});
+```
+
+_.spec.js_
+
+```
+it("Validate particular country in response", () => {
+cy.fixture("testData").then(td => {
+cy.checkContent("getCountriesResponse.json", td.countryData.country);
+});
+});
+```
+
+I also use _forEach_ to compare two arrays - actual one from the response and expected one from the _fixtures.json_.
+_comands.js_
+
+```
+Cypress.Commands.add(
+  "compareKeys",
+  (respJSON, parentObj, testedObj, expectedKeys) => {
+    cy.fixture(respJSON).then(resp => {
+      var ind = 0;
+      Object.keys(resp.body.data[parentObj][testedObj]).forEach(key => {
+        expect(key).to.be.eq(expectedKeys[ind]);
+        ind = ind + 1;
+      });
+    });
+  }
+);
+```
+
+_.spec.js_
+
+```
+it("Validate nearest city data - Weather", () => {
+    cy.fixture("testData").then(td => {
+      cy.compareKeys(
+        "getNearestCityResponse",
+        "current",
+        "weather",
+        td.weatherKeys
+      );
+    });
+});
 ```

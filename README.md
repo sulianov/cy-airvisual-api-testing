@@ -90,9 +90,9 @@ _.spec.js_
 
 ```
 it("Validate particular country in response", () => {
-cy.fixture("testData").then(td => {
-cy.checkContent("getCountriesResponse.json", td.countryData.country);
-});
+  cy.fixture("testData").then(td => {
+    cy.checkContent("getCountriesResponse.json", td.countryData.country);
+  });
 });
 ```
 

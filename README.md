@@ -39,7 +39,7 @@ All the data used for testing saved in *testData.json*.
  ...
  ```
 If same test occurs more than one time it has its own *Cypress.Command* saved in *commands.js*.
-## On the example of the *"Validate the header"* test.
+### On the example of the *"Validate the header"* test.
 *commands.js*
 ```
 Cypress.Commands.add("validateHeader", fixt => {
@@ -51,7 +51,7 @@ Cypress.Commands.add("validateHeader", fixt => {
   });
 });
 ```
-* *.spec.js*
+*.spec.js*
 ```
 it("Validate the header", () => {
     cy.validateHeader("getCountriesResponse.json");

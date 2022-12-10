@@ -62,7 +62,7 @@
     "process-nextick-args": "^2.0.1",
     "psl": "^1.7.0",
     "punycode": "^2.1.1",
-    "qs": "^6.5.2",
+    "qs": "^6.5.3",
     "querystring": "^0.2.0",
     "readable-stream": "^2.3.7",
     "restore-cursor": "^1.0.1",

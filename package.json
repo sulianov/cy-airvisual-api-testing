@@ -44,7 +44,7 @@
     "mimic-fn": "^2.1.0",
     "minimatch": "^3.0.4",
     "mkdirp": "^0.5.1",
-    "mocha": "^7.0.1",
+    "mocha": "^10.2.0",
     "ms": "^2.1.2",
     "npm-run-path": "^4.0.1",
     "number-is-nan": "^1.0.1",
